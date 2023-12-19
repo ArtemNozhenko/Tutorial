@@ -1,0 +1,104 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fbfbfb;
+  background-color: #0e1823;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advantages-list {
+  background-color: #1b414b;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 20px;
+}
+
+.advantages-item-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 18px;
+}
+
+.advantages-item-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.advantages-img {
+  background: url(<path-to-image>),
+    lightgray -279.167px -3px / 245.174%
+      108.962% no-repeat;
+}
